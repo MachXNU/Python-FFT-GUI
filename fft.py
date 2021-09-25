@@ -9,7 +9,7 @@ def getPeriod(time):
         period += time[i+1]-time[i]
     return period/n
 
-time, val = np.loadtxt('test.txt',delimiter=',',unpack=True)
+time, val = np.loadtxt('test.csv',delimiter=',',unpack=True)
 
 X=fft(val)
 
