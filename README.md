@@ -12,5 +12,8 @@ An example `.csv` is included in the repo as well.
 Don't forget to update the access path to the `.csv` !
 If you can't see properly the FFT spectrum, try adjusting the bounds of the FFT window in the code (at the moment, it's optimised for the `.csv` file provided here
 
+## Screenshot
+![alt text](https://github.com/JbAmade/Python-FFT-GUI/blob/main/Screenshot.png?raw=true)
+
 ## License
 MIT license
