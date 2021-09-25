@@ -9,6 +9,7 @@ This can obviously be changed easily by adapting the Python code !
 An example `.csv` is included in the repo as well.
 
 ## Troubleshooting
+Don't forget to update the access path to the `.csv` !
 If you can't see properly the FFT spectrum, try adjusting the bounds of the FFT window in the code (at the moment, it's optimised for the `.csv` file provided here
 
 ## License
