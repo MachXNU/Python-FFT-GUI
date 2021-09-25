@@ -16,7 +16,7 @@ X=fft(val)
 # calculate the frequency
 N = len(X)
 n = np.arange(N)
-T = getPeriod(time)
+T = N*getPeriod(time)
 freq = n/T
 
 plt.figure("Python FFT GUI",figsize = (12, 6))
